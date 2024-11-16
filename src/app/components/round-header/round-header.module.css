@@ -1,0 +1,63 @@
+.appHeader {
+  width: 100%;
+  /* background-color: #fff; */
+
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  /* box-shadow: inset 0 -1px 0 0 var(--accents-2); */
+}
+
+.container {
+  height: 64px;
+  max-width: 1320px;
+  width: 100%;
+  margin: 10px auto;
+  border-radius: 64px;
+
+  border-end-end-radius: 42px;
+  border-end-start-radius: 64px;
+  border-top-right-radius: 42px;
+
+  padding: 0px 12px;
+
+  display: flex;
+  align-items: center;
+
+  background: #000c;
+  /* background: #000; */
+  transform: translateZ(0);
+  backdrop-filter: saturate(180%) blur(5px);
+}
+
+.appNav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navRight {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.navRight a {
+  font-size: 14px;
+  color: var(--accents-5);
+  font-weight: 500;
+  transition: color .15s ease;
+}
+.navRight a:hover {
+  color: var(--geist-foreground);
+}
+
+.navLeft {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  justify-content: flex-end;
+}
